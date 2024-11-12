@@ -1,1 +1,1 @@
-# LungCancerClassificationA701
+# LungCancerClassification
