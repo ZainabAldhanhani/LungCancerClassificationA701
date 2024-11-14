@@ -34,6 +34,12 @@ git clone https://github.com/ZainabAldhanhani/LungCancerClassificationA701.git
 cd LungCancerClassificationA701
 pip install -r requirements.txt
 ```
+
+## View Dataset Samples
+```bash
+cd visualization
+python visualization.py --dataset_path Path
+```
 ## Dataset Access
 
 The dataset used for this project is available on Kaggle. It contains Chest CT scan images for various medical imaging tasks.
