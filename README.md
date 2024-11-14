@@ -30,8 +30,8 @@
 Clone this repository and install the required Python packages:
 
 ```bash
-git clone https://github.com/salmasoma/Cell-Segmentation-in-Hematology-MIL.git
-cd Cell-Segmentation-in-Hematology-MIL 
+git clone https://github.com/ZainabAldhanhani/LungCancerClassificationA701.git
+cd LungCancerClassificationA701
 pip install -r requirements.txt`
 ```
 ## Dataset Access
