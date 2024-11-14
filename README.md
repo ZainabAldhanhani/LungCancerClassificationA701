@@ -27,11 +27,12 @@
 
 
 ## Install Requirements
-
-To install all necessary dependencies, run the following command:
+Clone this repository and install the required Python packages:
 
 ```bash
-pip install -r requirements.txt
+git clone https://github.com/salmasoma/Cell-Segmentation-in-Hematology-MIL.git
+cd Cell-Segmentation-in-Hematology-MIL 
+pip install -r requirements.txt`
 ```
 ## Dataset Access
 
