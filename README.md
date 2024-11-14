@@ -46,10 +46,13 @@ cd 'Train and evaluate all models'
 python crossValidateTrain.py --train_dataset_path Path1 --test_dataset_path path2
 ```
 ## Test the models on the test set and save the best model
+Model Weights are required in this step. Do the Train Step OR Download the weight that provided in this repository. 
 ```bash
 cd 'Test the models on the test set'
 python testDatasetonEachModel.py --train_dataset_path Path1 --test_dataset_path path2
 ```
+> **Note**: Make sure that Model Weights in the same folder.
+
 ## Dataset Access
 
 The dataset used for this project is available on Kaggle. It contains Chest CT scan images for various medical imaging tasks.
