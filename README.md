@@ -45,6 +45,11 @@ python visualization.py --dataset_path Path
 cd 'Train and evaluate all models'
 python crossValidateTrain.py --train_dataset_path Path1 --test_dataset_path path2
 ```
+## Test the models on the test set and save the best model
+```bash
+cd 'Test the models on the test set'
+python testDatasetonEachModel.py --train_dataset_path Path1 --test_dataset_path path2
+```
 ## Dataset Access
 
 The dataset used for this project is available on Kaggle. It contains Chest CT scan images for various medical imaging tasks.
