@@ -42,8 +42,8 @@ python visualization.py --dataset_path Path
 ```
 ## Train and evaluate all models, get the best model and its name
 ```bash
-cd "Train and evaluate all models"
-python crossValidateTrain.py ---train_dataset_path Path1 --test_dataset_path path2
+cd 'Train and evaluate all models'
+python crossValidateTrain.py --train_dataset_path Path1 --test_dataset_path path2
 ```
 ## Dataset Access
 
