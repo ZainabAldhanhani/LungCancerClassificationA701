@@ -34,18 +34,22 @@ git clone https://github.com/ZainabAldhanhani/LungCancerClassificationA701.git
 cd LungCancerClassificationA701
 pip install -r requirements.txt
 ```
-
+## Implement The Full Pipeline  
+```bash
+cd 'Main Code'
+python main.py 
+```
 ## View Dataset Samples
 ```bash
 cd visualization
 python visualization.py --dataset_path Path
 ```
-## Train and evaluate all models, get the best model and its name
+## Train and Evaluate All models
 ```bash
 cd 'Train and evaluate all models'
 python crossValidateTrain.py --train_dataset_path Path1 --test_dataset_path path2
 ```
-## Test the models on the test set and save the best model
+## Test The Models on The Test Set And Save The Best Model
 Model Weights are required in this step. Do the Train Step OR Download the weight that provided in this repository. 
 ```bash
 cd 'Test the models on the test set'
@@ -53,6 +57,18 @@ python testDatasetonEachModel.py --train_dataset_path Path1 --test_dataset_path 
 ```
 > **Note**: Make sure that Model Weights in the same folder.
 
+## Classification
+For Random Forest: 
+```bash
+cd Classification
+python RandomForest.py --train_dataset_path Path1 --test_dataset_path path2 --model_name model_name
+```
+For SVM: 
+```bash
+cd Classification
+python SVM.py --train_dataset_path Path1 --test_dataset_path path2 --model_name model_name
+```
+> **Note**: Make sure that Model Weights in the same folder.
 ## Dataset Access
 
 The dataset used for this project is available on Kaggle. It contains Chest CT scan images for various medical imaging tasks.
