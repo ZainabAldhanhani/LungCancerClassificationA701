@@ -16,15 +16,12 @@
 ---
 ## Repository Structure
 
-- `Data Pre and Post Processing/`: Source code containing all scripts for pre-processing the histopathology images including stain normalization and the mask post-processing
-- `Classification/`: This folder contains code to train and test the baseline classification models including ResNet50, DenseNet121, and ViT
-- `Segmentation/`: Source code for training the DeepLabV3 segmentation model and inferencing the segmentation masks
-- `Radiomics Features/`: Source code to extract the radiomics features of white blood cells using generated masks
-- `Multi-Modal Model/`: This folder contains code to train the multi-modal model with ViT and ConvNext model along with radiomics tabular features
-- `Mask Attention/`: Source code for ablation experiment to use mask attention to aid in classification
-- `Tabular Attention/`: Source code for ablation experiment to implement tabular attention
-- `Multiple Instance Learning/`: This folder contains code to train the MIL model to patchify histopathology images and use bagging to predict diagnosis
-- `data/`: This folder contains demo input and output files to test the code
+- `Classification/`: Classification Random Forest model and SVM Model
+- `Dataset/`: This folder contains image examples for training dataset and testing dataset
+- `Main Code/`: Main Code including all parts (Train and evaluate all models,Test the models on the test set,Visualization, and Classification )
+- `Test the models on the test set/`: Test the models on the test set and save the best model
+- `Train and evaluate all models`: Train and evaluate all models, get the best model and its name
+- `Visualization/`: View dataset samples
 - `README.md`: Overview and setup instructions.
 - `requirements.txt`: Required libraries for the project.
 
