@@ -71,8 +71,7 @@ python SVM.py --train_dataset_path Path1 --test_dataset_path path2 --model_name 
 > **Note**: Make sure that Model Weights in the same folder.
 ## Dataset Access
 
-The dataset used for this project is available on Kaggle. It contains Chest CT scan images for various medical imaging tasks.
-
+The dataset used for this project is available on Kaggle. It contains Chest CT scan images for  3 chest cancer types which are Adenocarcinoma,Large cell carcinoma, Squamous cell carcinoma , and 1 folder for the normal cell.
 To access and download the dataset, follow these steps:
 
 1. Visit the Kaggle dataset page: **[Chest CT Scan Images](https://www.kaggle.com/datasets/mohamedhanyyy/chest-ctscan-images)**
