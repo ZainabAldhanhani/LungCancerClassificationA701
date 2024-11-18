@@ -28,7 +28,7 @@ cancer detection, providing insights that may facilitate the development of powe
 tools. Ultimately, this research aspires to support clinicians in making informed decisions, thereby
 improving early diagnosis and treatment strategies for lung cancer patients.
 ## Architecture
-![Diagram](Figurs/Diagram.png "Diagram")
+![Diagram](Figures/Diagram.png "Diagram")
 
 ## Repository Structure
 
