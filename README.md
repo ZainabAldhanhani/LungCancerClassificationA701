@@ -1,19 +1,8 @@
 # Comparative Analysis of Supervised Learning Algorithms for Lung Cancer Classification in CT Imaging
+This repository contains the implementation and documentation
 
-**Authors**  
-- **Aamna Alshehhi**  
-  Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)  
-  [aamna.alshehhi@mbzuai.ac.ae](mailto:aamna.alshehhi@mbzuai.ac.ae)
-
-- **Fatema Alkamali**  
-  Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)  
-  [fatema.alkamali@mbzuai.ac.ae](mailto:fatema.alkamali@mbzuai.ac.ae)
-
-- **Zainab Aldhanhani**  
-  Mohamed bin Zayed University of Artificial Intelligence (MBZUAI)  
-  [zainab.aldhanhani@mbzuai.ac.ae](mailto:zainab.aldhanhani@mbzuai.ac.ae)
-
----
+## Background
+## Architecture
 ## Repository Structure
 
 - `Classification/`: Classification Random Forest model and SVM Model
@@ -87,3 +76,8 @@ You can download the weights by clicking the link below:
 
 > **Note**: Make sure you have adequate storage space and a stable internet connection when downloading the files.
 
+## Methodology
+
+## Contributions
+
+## Challenges and Future Directions
