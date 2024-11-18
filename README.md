@@ -2,6 +2,31 @@
 This repository contains the implementation and documentation
 
 ## Background
+Lung cancer is one of the leading causes of cancer-related deaths worldwide, with an estimated
+1.8 million deaths (18%). For improved patient care, early detection using imaging modalities
+such as Computed Tomography (CT) is of utmost importance. CT imaging plays a vital role
+in the identification of lung cancer, providing cross-sectional scans of the lungs that pronounce
+the visualization of intricate pulmonary structures and abnormalities, such as nodules and masses.
+However, the interpretation of CT images is often challenging due to the complexity and variability of
+pathology presentations. Recent developments in the field of machine learning, specifically supervised
+learning algorithms, demonstrate potential for automating and improving the categorization of lung
+cancer from CT scans.
+This project aims to establish a benchmarking classification result utilizing the chest CT-Scan images
+dataset by evaluating the efficacy of various supervised learning algorithms in classifying lung cancer.
+Through this analysis, we seek to identify the optimal models for clinical use, ensuring that the
+chosen algorithms not only perform with high accuracy but also meet the practical requirements of
+medical applications.
+Our methodology begins by feeding the CT images into a selection of CNNs, which can include
+pre-trained models for an interesting comparison, to extract the critical features that discern whether
+the scans are indicative of cancer. Various classifiers will be explored for each CNN choice, including
+Support Vector Machines (SVM) and Random Forests. Each classifier establishes a decision boundary
+or imposes conditionals to differentiate between normal cases and the different types of cancer, hence
+building the final model that will be tested for accurate lung cancer classification. Lastly, the
+performance of these algorithms will be assessed based on metrics like accuracy, precision, and recall.
+The results of this analysis will contribute to the growing body of literature on automated lung
+cancer detection, providing insights that may facilitate the development of powerful diagnostic
+tools. Ultimately, this research aspires to support clinicians in making informed decisions, thereby
+improving early diagnosis and treatment strategies for lung cancer patients.
 ## Architecture
 ## Repository Structure
 
