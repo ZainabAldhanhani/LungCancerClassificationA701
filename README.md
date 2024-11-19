@@ -80,5 +80,19 @@ You can download the weights by clicking the link:**[Access the Weights Here](ht
 ## Methodology
 
 ## Contributions
+1. Provides a benchmark comparison of supervised algorithms for lung cancer classification in CT imaging, aiding early diagnosis and supporting timely treatment decisions.
+    
+2. Highlights the strengths and weaknesses of various algorithms, serving as a valuable educational resource for medical residents and professionals.
+    
+3. Addresses key challenges like data preprocessing and model generalizability, establishing a reliable benchmark that contributes to the development of trustworthy AI tools for clinical applications.
 
 ## Challenges and Future Directions
+
+
+1. This study focuses on using CNNs for feature extraction and classification, excluding transformer-based architectures.
+2. Transformer-based architectures, known for their strong potential in medical imaging, could provide additional insights.
+3. The analysis relies on a single medical dataset, which may limit the generalizability of the findings.
+### Future work could:
+1. Incorporate transformers and hybrid models combining CNNs with transformers to enhance insights in lung cancer detection.
+2. Expand the analysis to include multiple, diverse medical datasets to improve generalizability.
+3. Evaluate performance across various image qualities and patient demographics
