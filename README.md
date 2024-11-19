@@ -111,7 +111,7 @@ You can download the weights by clicking the link:**[Access the Weights Here](ht
 1. This study focuses on using CNNs for feature extraction and classification, excluding transformer-based architectures.
 2. Transformer-based architectures, known for their strong potential in medical imaging, could provide additional insights.
 3. The analysis relies on a single medical dataset, which may limit the generalizability of the findings.
-### Future work could:
+### Future work:
 1. Incorporate transformers and hybrid models combining CNNs with transformers to enhance insights in lung cancer detection.
 2. Expand the analysis to include multiple, diverse medical datasets to improve generalizability.
 3. Evaluate performance across various image qualities and patient demographics
