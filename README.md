@@ -78,6 +78,25 @@ You can download the weights by clicking the link:**[Access the Weights Here](ht
 > **Note**: Make sure you have adequate storage space and a stable internet connection when downloading the files.
 
 ## Methodology
+### Feature Extraction
+
+- **Dataset Preparation:** Labeled images (four classes) resized to 224x224; split into internal and external datasets.  
+- **Custom Dataset Class:** Handles image transformations (resizing, normalization, tensor conversion).  
+- **Model Selection:** Pre-trained architectures (VGG16, ResNet50, DenseNet121) used; evaluated with 5-fold cross-validation.  
+- **Testing:** Optimal model weights saved based on F1-score.  
+
+### Classification Using Random Forests
+
+- **Feature Extraction:** Features saved as `.pth` files to reduce complexity.  
+- **Random Forest:** Used for classification due to robustness and interpretability.  
+- **Grid Search:** 3-fold cross-validation identifies best hyperparameters (e.g., `n_estimators`, `max_depth`).  
+- **Evaluation:** Metrics include accuracy, weighted F1-score, and a confusion matrix.  
+
+### Classification Using Support Vector Machines
+
+- **SVM Classifier:** Uses one-vs-one (OvO) method for multi-class classification.  
+- **Parameter Tuning:** Kernel types and regularization parameters optimized with 5-fold cross-validation.  
+- **Retraining:** Best SVM model trained on the full dataset for generalization.  
 
 ## Contributions
 1. Provides a benchmark comparison of supervised algorithms for lung cancer classification in CT imaging, aiding early diagnosis and supporting timely treatment decisions.
