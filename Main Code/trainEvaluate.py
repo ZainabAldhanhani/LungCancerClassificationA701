@@ -3,7 +3,7 @@ import torch.nn as nn
 from sklearn.metrics import accuracy_score, f1_score,confusion_matrix
 
 # Training and evaluation function with a training loop
-def train_and_evaluate(model_name, model, train_loader, val_loader, accuracies, f1_scores, device, epochs=5):
+def train_and_evaluate(model_name, model, train_loader, val_loader, accuracies, f1_scores, device, epochs=20):
     criterion = nn.CrossEntropyLoss()
     optimizer = torch.optim.Adam(model.parameters(), lr=0.001)
 
